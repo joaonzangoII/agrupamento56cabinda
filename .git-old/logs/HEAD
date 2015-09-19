@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 232fc3804e4cbea89377b6d979ad17d4624cbb64 Joao Nzango <joaonzangoii@hotmail.com> 1442177188 +0200	commit (initial): Add files
+232fc3804e4cbea89377b6d979ad17d4624cbb64 68f91ef844ca7ad3e705cac46962903f6977fad3 Joao Nzango <joaonzangoii@hotmail.com> 1442177256 +0200	commit (amend): My First commit lets do this
+68f91ef844ca7ad3e705cac46962903f6977fad3 9ec72bee0af0bdc480d38bb51acc0336c67d9051 Joao Nzango <joaonzangoii@hotmail.com> 1442682221 +0200	commit: my first commit on this project, hope to have fun writing my first real app in ruby
+9ec72bee0af0bdc480d38bb51acc0336c67d9051 60a323d18afbf3998e24168f04d3ed6ac9a7db86 Joao Nzango <joaonzangoii@hotmail.com> 1442684219 +0200	commit: fix git ignore to not show config files
+60a323d18afbf3998e24168f04d3ed6ac9a7db86 75e40fb56d842c15e16b8b14fc7a8030febd50cb Joao Nzango <joaonzangoii@hotmail.com> 1442685051 +0200	commit: fix gem file
+75e40fb56d842c15e16b8b14fc7a8030febd50cb 8a6da0079185528fe365e7102f40ee3ba7657a1a Joao Nzango <joaonzangoii@hotmail.com> 1442685476 +0200	commit: fix devise configuration for production
+8a6da0079185528fe365e7102f40ee3ba7657a1a b67246e569c7f604bac65836e5f0794a01367260 Joao Nzango <joaonzangoii@hotmail.com> 1442687124 +0200	commit: add figaro gem to manage the secrets
+b67246e569c7f604bac65836e5f0794a01367260 782d46038d8b0fe1abb6fac0e052b2c5745f852d Joao Nzango <joaonzangoii@hotmail.com> 1442690532 +0200	commit: changes in cloudinary config and changes in produnction.rb file for production
+782d46038d8b0fe1abb6fac0e052b2c5745f852d f7781cfb71f84cf79c9908a29115760118746f72 Joao Nzango <joaonzangoii@hotmail.com> 1442691681 +0200	commit: add attachments to users *avatar and photos8
+f7781cfb71f84cf79c9908a29115760118746f72 d8923590a254fb7cd58495f5825e65eef1ebe819 Joao Nzango <joaonzangoii@hotmail.com> 1442692271 +0200	commit: changes in User model and changes in application.rb file
+d8923590a254fb7cd58495f5825e65eef1ebe819 52e2c273113501a00aa959d9878504b7e94c6fea Joao Nzango <joaonzangoii@hotmail.com> 1442692340 +0200	commit (amend): changes in application.js and User model
+52e2c273113501a00aa959d9878504b7e94c6fea 36eba5097b15a5f9a6fdeee4aba556530c2deb67 Joao Nzango <joaonzangoii@hotmail.com> 1442694913 +0200	commit: work in fixing migrations
