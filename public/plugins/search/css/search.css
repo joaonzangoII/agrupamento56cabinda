@@ -45,13 +45,13 @@
 }
 #searchresults a:hover {
   color: #ffffff;
-  background-color: #fe9930;
-  background: -moz-linear-gradient(top, #fe9930 2%, #f26209 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#fe9930), color-stop(100%,#f26209));
-  background: -webkit-linear-gradient(top, #fe9930 2%,#f26209 100%);
-  background: -o-linear-gradient(top, #fe9930 2%,#f26209 10p0%);
-  background: -ms-linear-gradient(top, #fe9930 2%,#f26209 100%);
-  background: linear-gradient(top, #fe9930 2%,#f26209 100%);
+  background-color: #ddd;
+  background: -moz-linear-gradient(top, #ddd 2%, #ddd 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#ddd), color-stop(100%,#ddd));
+  background: -webkit-linear-gradient(top, #ddd 2%,#ddd 100%);
+  background: -o-linear-gradient(top, #ddd 2%,#ddd 10p0%);
+  background: -ms-linear-gradient(top, #ddd 2%,#ddd 100%);
+  background: linear-gradient(top, #ddd 2%,#ddd 100%);
   border-color: #ccc;
 }
 #searchresults a img {

@@ -32,7 +32,7 @@
       height: 72px;
       background: url(/assets/logo.png) 0 0 no-repeat;
       text-indent: -9999px;
-      margin-bottom: 10px;
+      margin-top: 10px;
   }
 
   #collapse{
@@ -47,7 +47,7 @@
   }*/
 
   #top-nav-bar {
-    /* height: 150px; */
+     height: 80px; 
     position: relative;
     width: 100%;
 }
