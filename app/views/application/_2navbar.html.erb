@@ -1,0 +1,75 @@
+<nav id="top-nav-bar" class="navbar navbar-default" role="navigation">
+  <div class="navbar-inner">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+          <span class="sr-only">Toggle Navigation</span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span> 
+        </button> 
+        <h1 id="logo">
+          <a class="navbar-brand" href="/">Agrupamento 56 | Nossa Sra Rainha do Mundo</a>
+        </h1>
+      </div>
+      <div class="collapse navbar-collapse col-md-6" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav left">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <div class="itemm">Inicio<span class="caret"></span> </div>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a class="btn big-login" data-toggle="modal" onclick="openLoginModal();">Entrar</a></li>
+                <li><a class="btn big-register" data-toggle="modal" onclick="openRegisterModal();">Criar Conta</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <div class="itemm">Acerca de nos<span class="caret"></span> </div>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a class="btn big-login" >Historia</a></li>
+              <li><a class="btn big-register" >Team</a></li>
+              <li><a class="btn big-register" >Values</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <div class="itemm">Membros<span class="caret"></span> </div>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a class="btn big-login" >Lobitos</a></li>
+              <li><a class="btn big-register" >Juniores</a></li>
+              <li><a class="btn big-register" >Seniores</a></li>
+              <li><a class="btn big-register" >Caminheiros</a></li>
+              <li><a class="btn big-register" >Dirigentes</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+              <div class="itemm">Noticias<span class="caret"></span> </div>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a class="btn big-login" >Ultimas Noticias</a></li>
+              <li><a class="btn big-register" >Eventos</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6"  style="padding-right: 0px;">
+        <div id="searchformdiv">
+          <form id="searchform" data-remote="true">
+            <div>
+              <input id="text-search" alt="" type="text" onkeyup="lookup(this.value);" placeholder="&#xf002; Procurar" />
+            </div>
+            <div id="suggestions"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

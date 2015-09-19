@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Agrupamento56cabinda</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<%= yield %>
+    <title><%= content_for?(:title) ? yield(:title) : "Agrupamento 56 | Nossa Sra Rainha do Mundo" %></title>
 
-</body>
+    <%= stylesheet_link_tag    "application" %>
+    <%= stylesheet_link_tag    "/plugins/search/css/search" %>
+    <!-- <%= javascript_include_tag "vendor/modernizr" %> -->
+    <%= javascript_include_tag "/plugins/accentfold/accentfold" %>
+    <%= javascript_include_tag "/plugins/search/js/search" %>
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= favicon_link_tag '/favicon.ico' %>
+    <%= csrf_meta_tags %>
+    <%= cloudinary_js_config %>
+  </head>
+
+  <body>
+    <%= render "navbartop" %>
+    <%= render "navbar" %>
+    <div class="container">   
+<!--     <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p> -->
+      <div class="col-md-8">  
+        <%= yield %>
+      </div>
+
+      <div class="col-md-4">  
+        <%= render "sidebar" %>
+      </div> 
+    </div>
+  </body>
 </html>

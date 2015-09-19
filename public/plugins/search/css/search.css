@@ -1,0 +1,145 @@
+/* SEARCH FORM */
+
+#searchform {
+  font-size: 18px;
+}
+#searchform div {
+  color: #eeeeee;
+}
+#searchform div input {
+  font-size: 18px;
+  padding: 5px;
+  width: 100%;
+}
+#suggestions {
+  position: relative;
+  width: 100%;
+  display: none;
+  margin-top: 20px;
+}
+
+/* SEARCHRESULTS */
+
+#searchresults {
+  z-index: 10;
+  margin-top: -20px;
+  position: absolute;
+  border-width: 1px;
+  border-color: #919191;
+  border-style: solid;
+  width:100%;
+  background-color: #FFF;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: left;
+}
+#searchresults span.searchheading{
+  font-size: 16px;
+}
+#searchresults a {
+  display: block;
+  background-color: #FFF;
+  clear: left;
+  height: 60px;
+  text-decoration: none;
+}
+#searchresults a:hover {
+  color: #ffffff;
+  background-color: #fe9930;
+  background: -moz-linear-gradient(top, #fe9930 2%, #f26209 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#fe9930), color-stop(100%,#f26209));
+  background: -webkit-linear-gradient(top, #fe9930 2%,#f26209 100%);
+  background: -o-linear-gradient(top, #fe9930 2%,#f26209 10p0%);
+  background: -ms-linear-gradient(top, #fe9930 2%,#f26209 100%);
+  background: linear-gradient(top, #fe9930 2%,#f26209 100%);
+  border-color: #ccc;
+}
+#searchresults a img {
+  float: left;
+  padding: 5px 10px;
+}
+#searchresults a span.searchheading, #searchresults span.searchheading {
+  display: block;
+  /*font-weight: bold;*/
+  padding-top: 5px;
+  color: #191919;
+}
+#searchresults a:hover span.searchheading {
+  color: #ffffff;
+}
+#searchresults a span {
+  color: #555555;
+}
+#searchresults a:hover span {
+  color: #f1f1f1;
+}
+#searchresults span.category-search {
+  font-size: 11px;
+  margin: 5px;
+  display: block;
+  color: #ffffff;
+}
+#searchresults span.separator {
+  /*float: right;*/
+/*  padding-right: 15px;
+  margin-right: 5px;*/
+  /*background-image: url(/site/plugins/search/images/shortcuts_arrow.gif);*/
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 40px;
+
+}
+#searchresults span.separator a, #searchresults span.noresults a  {
+  background-color: transparent;
+  display: block;
+  padding: 5px;
+  height: 100%;
+  color: #000;
+}
+#searchresults span.separator a:hover, #searchresults span.noresults a:hover {
+  text-decoration: none;
+  color:#FFF;
+}
+
+
+#searchform input[type="text"] {
+  position: relative;
+  height:50px;
+}
+
+#searchformdiv {
+  margin-top: 30px;
+}
+
+#searchform input { 
+  font-family: 'FontAwesome'; 
+} /* This is for the placeholder */
+.highlight {
+  color: #F00;
+}
+
+
+@media screen and (max-width: 768px) {
+  #searchformdiv {
+    margin-top: 50px;
+    width: 100%;
+
+  }
+  .col-md-6{
+    padding-left: 0px;
+  }
+}
+/*#searchform:before {
+    font-family: 'FontAwesome';
+    color:red;
+    position: relative;
+    left: -10px;
+    content: "\f007";
+}*/
+/*END SEARCH*/
+
+@media screen and (max-width: 767px) {
+  #search .pull-right{
+    float: none;
+  }
+}

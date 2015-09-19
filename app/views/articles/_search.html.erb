@@ -1,0 +1,21 @@
+<p id="searchresults">
+  <% if @articles.present? %>
+    <% @articles.each do |article| %>
+      <a href="">
+        <img src="/assets/logo.png" alt="" style="width:80px;height:60px;" />
+        <% if article.title.length > 35 -%>
+          <span class="searchheading"><%= article.title[0,34] %></span>
+        <% else %>
+          <span class="searchheading"><%= article.title %></span>
+        <% end %>
+        <% if article.text.length > 80 -%>
+          <span><%= article.text[0,79] %></span>
+        <% else%>
+          <span><%= article.text %></span>
+        <% end %>
+      </a>
+    <% end %>
+  <% else %>
+    <span class="noresults">There are no posts containing the term(s) <%= params[:search] %>.</span>
+  <% end %>
+</p>

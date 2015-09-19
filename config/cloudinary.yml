@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: agrupamento-56-cabinda
+  api_key: '563256166299929'
+  api_secret: M1CGj5CnZrM3jMnO7AGGu3C4hbs
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: agrupamento-56-cabinda
+  api_key: '563256166299929'
+  api_secret: M1CGj5CnZrM3jMnO7AGGu3C4hbs
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: agrupamento-56-cabinda
+  api_key: '563256166299929'
+  api_secret: M1CGj5CnZrM3jMnO7AGGu3C4hbs
+  enhance_image_tag: true
+  static_image_support: false
